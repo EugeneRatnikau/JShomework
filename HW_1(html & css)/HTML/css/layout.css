@@ -38,7 +38,7 @@ p {
   font-size: 15px;
   font-weight: 400;
   font-family: Hind, sans-serif;
-  color: #726b6b;
+  color: #a6a7aa;
   line-height: 1.4;
   margin-bottom: 15px;
 }
@@ -86,23 +86,23 @@ span {
   font-size: 14px;
   font-weight: 400;
   font-family: Hind, sans-serif;
-  color: #e21818;
+  color: #bfc1c7;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-family: Hind, sans-serif;
-  color: #e21818;
+  color: #515769;
   line-height: 1.4;
   margin: 0 0 15px;
 }
 
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
-  color: #e21818;
+  color: #515769;
 }
 
 h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hover {
-  color: #e21818;
+  color: #999caa;
   text-decoration: none;
 }
 
@@ -813,7 +813,7 @@ fieldset[disabled] .btn-theme {
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
   }
   .page-on-scroll .header .nav-item-child {
-    color: #e21818;
+    color: #515769;
     transition-duration: 300ms;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
