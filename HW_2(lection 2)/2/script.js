@@ -12,7 +12,7 @@ var sum = 0;
 for(var i = 0; i <= n; i++){
 	arr.push(Math.round(getRand(1, 100)));
 	if(i != 0){
-		console.log("+" + arr[i] * x);
+		console.log("+" + arr[i] * Math.pow(x, i + 1));
 		sum += arr[i] * x;
 	}else{
 		console.log(arr[i]);
