@@ -87,3 +87,28 @@ console.log("Dispersion: " + dispersion(1,2,3,4,5,6,7));
 // }
 
 // charming("dfkjnvdkf");
+
+//---------------------------------------------------------------
+
+function poly(...args){
+	var arr = [];
+	var sum = 0;
+	for(var i = 0; i < arguments.length; i++){
+		arr.push(arguments[i]);
+	}
+	return function (x) {
+		for(var i = 0; i < arr.length; i++){
+			if(i != 0){
+				console.log("+" + arr[i] * Math.pow(x, i));
+				sum += arr[i] * Math.pow(x, i);
+			}else{
+				console.log(arr[i]);
+				sum += arr[i];
+			}
+		}
+		//console.log(sum);
+		return sum;
+	}
+}
+
+console.log(poly(1,2,3)(2));
