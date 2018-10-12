@@ -1,7 +1,7 @@
 function garm(...args) {
 	var gar = 0;
-	for(var i in arguments){
-		gar += 1/arguments[i];
+	for(var i in args){
+		gar += 1/args[i];
 	}
 	return gar;
 }
@@ -24,8 +24,8 @@ var arr = [];
 var med, x;
 
 function median(...args) {
-	for(var i in arguments){
-		arr.push(arguments[i]);
+	for(var i in args){
+		arr.push(args[i]);
 	}
 	arr.sort(compareNumeric);
 
@@ -48,8 +48,8 @@ var arr2 = [];
 function dispersion(...args) {
 	var sum = 0, dispers;
 
-	for(var i in arguments){
-		arr2.push(arguments[i]);
+	for(var i in args){
+		arr2.push(args[i]);
 	}
 	arr2.sort(compareNumeric);
 
@@ -86,7 +86,13 @@ console.log("Dispersion: " + dispersion(1,2,3,4,5,6,7));
 // 	}
 // }
 
-// charming("dfkjnvdkf");
+var str = function(){ 
+var str = ''; 
+var chars = Object.values(arguments); 
+chars.forEach((char) => {str += String.fromCharCode(char);}); 
+return str; 
+}
+console.log(str("string"));
 
 //---------------------------------------------------------------
 
