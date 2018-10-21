@@ -47,7 +47,7 @@ var herdTimer = setTimeout(function Tim(){
 		icon.setAttribute('id', 'iconAmazon');
 		herdInst.appendChild(icon);
 		herdState = false;
-		setTimeout(Tim, 4000);
+		setTimeout(Tim, 5000);
 	}
 	else{
 		document.getElementById('herdInst').remove();
