@@ -4,7 +4,7 @@ var names = ['Olivia','Oliver','Amelia','Harry','Isla','Jack',
 var cities = ['New York', 'Los Angeles', 'Chicago', 'Houston',
 'Philadelphia','Phoenix','San Antonio','San Diego'];
 
-var arr = [], length = 21;
+var arr = [];
 
 function getRand(a, b) {
 	var x = Math.random();
@@ -12,7 +12,7 @@ function getRand(a, b) {
 }
 
 
-for(var i = 0; i < length; i++){
+for(var i = 0; i < names.length; i++){
 	arr.push({name: names[getRand(0, names.length - 1)], 
 		age: getRand(18, 80),
 		city:cities[getRand(0, cities.length - 1)],

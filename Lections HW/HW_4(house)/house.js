@@ -45,6 +45,7 @@ var House = {
 	out: function(number, name){
 		this.flats[number - 1] ? this.flats[number - 1].people = this.flats[number - 1].people.filter(elem => elem.name != name)
 		 : console.log("Wrong number or name");
+
 	},
 	removeAll: function (number) {
 		this.flats[number - 1] ? this.flats[number - 1].people = []
@@ -53,7 +54,7 @@ var House = {
 	},
 	communal: function (cost){
 		const totalSquare = this.flats.reduce((a,b) => (b.people[0]) ? (a + b.square) : a, 0);
-		
+		console.log("---" + totalSquare);
 		const personalCost = [];
 		this.flats.forEach(el => personalCost.push(el.square / totalSquare * cost
 			/ (el.people.filter(el => el.age >= 18)).length));
@@ -68,6 +69,6 @@ var House = {
 };
 House.in(1, "Jane", 25);
 House.out(1, "Karl")
-//House.removeAll();
+House.removeAll(2);
 House.communal(5000);
 console.log(House);

@@ -83,8 +83,8 @@ var Company = {
 		const avgAge = this.employees.reduce((a,b) => 
 		(a + b.age), 0) / this.employees.length; 
 		const maxExp = this.employees.reduce((a,b) =>
-		(a > b.experience) ? a.experience : b.experience, 0);
-		console.log(`Sum salary = ${sumDepartmenSalary},\nAverage salary = ${averageSalary},\nNumber of employees = ${employeesCount},\nAverage age = ${avgAge},\nMax experience = ${maxExp}`);
+		(a.experience > b.experience) ? a : b, 0);
+		console.log(`Sum salary = ${sumDepartmenSalary},\nAverage salary = ${averageSalary},\nNumber of employees = ${employeesCount},\nAverage age = ${avgAge},\nMax experience = ${maxExp.experience}`);
 
 
 	}

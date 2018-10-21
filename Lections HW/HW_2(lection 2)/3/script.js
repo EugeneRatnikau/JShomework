@@ -21,12 +21,14 @@ function tomorrow2(){
 function tomorrow3(){
 	var now = new Date();
 	var end = new Date(now.getFullYear(), now.getMonth(), now.getDay() + 1)
+	console.log(now.getDay() + 1)
+	console.log(now + '----' + end)
 
 	var diff = (end - now) / 1000 / 60;
 
 	return Math.round(diff);
 }
-
-alert ("First version. Time left: " + tomorrow() );
-alert ("Second version. Time left: " + tomorrow2() );
-alert ("Third version. Time left: " + tomorrow3() );
+tomorrow3()
+// alert ("First version. Time left: " + tomorrow() );
+// alert ("Second version. Time left: " + tomorrow2() );
+// alert ("Third version. Time left: " + tomorrow3() );
