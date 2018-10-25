@@ -44,8 +44,8 @@ decr.addEventListener('click', decryption);
 
 //---------------------------------------table light up--------
 
-//var n = prompt("enter N for table NxN");
-var n = 20;
+var n = prompt("enter N for table NxN");
+
 
 var table = document.createElement('table');
 table.border = '1px';
