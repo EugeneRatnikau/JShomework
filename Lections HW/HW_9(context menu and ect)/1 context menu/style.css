@@ -1,0 +1,23 @@
+#menu{
+	text-align: center;
+	position: fixed;
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid #bbb;
+	background: #eee;
+	background: -webkit-linear-gradient(to bottom, #fff 0%, #e5e5e5 100px, #e5e5e5 100%);
+	background: linear-gradient(to bottom, #fff 0%, #e5e5e5 100px, #e5e5e5 100%);
+	border-color: rgb(0,0,0);
+	border-radius: 5px;
+	width:  150px;
+	margin: 0;
+	padding: 10px 0px 10px 0px;	
+	box-shadow: 1px 1px 4px rgba(0,0,0,.2);
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	height: 20px;
+}

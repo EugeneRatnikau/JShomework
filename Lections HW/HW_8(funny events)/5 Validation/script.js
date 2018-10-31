@@ -24,35 +24,35 @@ function validation(e) {
 		case 'name':		
 			if(Name.value.match(regExps.name)){
 				validations[0].innerText = ' accepted';
-			}else if(!Name.value.match(regExps.name)){
+			}else{
 				validations[0].innerText = '';
 			}
 			break;
 		case 'phone':			
 			if(phone.value.match(regExps.phone)){
 				validations[1].innerText = ' accepted';
-			}else if(!Name.value.match(regExps.phone)){
+			}else{
 				validations[1].innerText = '';
 			}
 			break;
 		case 'email':			
 			if(email.value.match(regExps.email)){
 				validations[2].innerText = ' accepted';
-			}else if(!Name.value.match(regExps.email)){
+			}else{
 				validations[2].innerText = '';
 			}
 			break;
 		case 'site':			
 			if(site.value.match(regExps.site)){
 				validations[3].innerText = ' accepted';
-			}else if(!Name.value.match(regExps.site)){
+			}else{
 				validations[3].innerText = '';
 			}
 			break;
 		case 'age':			
 			if(age.value >= 14 && age.value <=90){
 				validations[4].innerText = ' accepted';
-			}else if(!(age.value >= 14 && age.value <=90)){
+			}else{
 				validations[4].innerText = '';
 			}
 			break;
