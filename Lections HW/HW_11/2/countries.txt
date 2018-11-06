@@ -1,0 +1,11 @@
+country,flag,code,population,
+Germany,Germany.png,+49,81.8
+Poland,Poland.png,+48,38.5
+United Kingdom,United Kingdom.png,+44,63.4
+Sweden,Sweden.png,+46,9.5
+Netherlands,Netherlands.png,+31,16.7
+France,France.png,+33,65.3
+Finland,Finland.png,+358,5.4
+Switzerland,Switzerland.png,+41,8.4
+USA,USA.png,+1,325.7
+Norway,Norway.png,+47,5.3
