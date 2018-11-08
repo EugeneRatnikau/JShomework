@@ -1,4 +1,4 @@
-country,flag,code,population,
+country,flag,code,population
 Germany,Germany.png,+49,81.8
 Poland,Poland.png,+48,38.5
 United Kingdom,United Kingdom.png,+44,63.4

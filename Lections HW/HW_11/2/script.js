@@ -1,7 +1,7 @@
 const xhr = new XMLHttpRequest();
 xhr.open("GET", "countries.txt", true);
 xhr.onload = function(){
-	var arr = this.responseText.split("\n").map(el => el.split(','));
+	var arr = this.responseText.split("\r\n").map(el => el.split(','));
 	var countries = [];
 
 	for(var i = 1; i < arr.length; i++){
