@@ -1,0 +1,117 @@
+[{
+	"title":"Margarita",
+	"category":"Classic",
+	"price":6,
+	"img":"img/classic/margarita.png"
+},{
+	"title":"Hawaiian",
+	"category":"Classic",
+	"price":7,
+	"img":"img/classic/hawaiian.png"
+},{
+	"title":"Ham and Mushrooms",
+	"category":"Classic",
+	"price":8,
+	"img":"img/classic/ham_and_mushrooms.png"
+},{
+	"title":"Pepperoni",
+	"category":"Classic",
+	"price":9,
+	"img":"img/classic/pepperoni.png"
+},{
+	"title":"Pepperoni Blues",
+	"category":"Favourite",
+	"price":10.95,
+	"img":"img/favourite/pepperoni_blues.png"
+},{
+	"title":"Vegetable",
+	"category":"Favourite",
+	"price":8.88,
+	"img":"img/favourite/vegetable.png"
+},{
+	"title":"Barbecue",
+	"category":"Favourite",
+	"price":11.44,
+	"img":"img/favourite/barbecue.png"
+},{
+	"title":"Spicy",
+	"category":"Favourite",
+	"price":10.2,
+	"img":"img/favourite/spicy.png"
+},{
+	"title":"Super Pepperoni",
+	"category":"Favourite",
+	"price":8.45,
+	"img":"img/favourite/super_pepperoni.png"
+},{
+	"title":"Provence",
+	"category":"Favourite",
+	"price":9.45,
+	"img":"img/favourite/provence.png"
+},{
+	"title":"Carbonara",
+	"category":"Favourite",
+	"price":10.45,
+	"img":"img/favourite/carbonara.png"
+},{
+	"title":"Jalapeni Tuna",
+	"category":"Favourite",
+	"price":11.45,
+	"img":"img/favourite/jalapeni_tuna.png"
+},{
+	"title":"Tuscany",
+	"category":"Premium",
+	"price":12.45,
+	"img":"img/premium/tuscany.png"
+},{
+	"title":"Country",
+	"category":"Premium",
+	"price":12.45,
+	"img":"img/premium/country.png"
+},{
+	"title":"Belorussian",
+	"category":"Premium",
+	"price":12.45,
+	"img":"img/premium/belorussian.png"
+},{
+	"title":"Shpinach and Feta",
+	"category":"Premium",
+	"price":12.45,
+	"img":"img/premium/shpinach_and_feta.png"
+},{
+	"title":"Shrimps and Squids",
+	"category":"Premium",
+	"price":12.45,
+	"img":"img/premium/shrimps_and_squids.png"
+},{
+	"title":"5 Cheese",
+	"category":"Premium",
+	"price":12.45,
+	"img":"img/premium/5_cheese.png"
+},{
+	"title":"Barbecue Deluxe",
+	"category":"Premium",
+	"price":12.45,
+	"img":"img/premium/barbecue_deluxe.png"
+},{
+	"title":"Shrimps with Pineapple",
+	"category":"Premium",
+	"price":12.45,
+	"img":"img/premium/shrimps_with_pineapple.png"
+},{
+	"title":"Dominos Branded",
+	"category":"Legends",
+	"price":13.45,
+	"img":"img/Legends/dominos_branded.png"
+},{
+	"title":"Extravaganza",
+	"category":"Legends",
+	"price":13.45,
+	"img":"img/Legends/extravaganza.png"
+},{
+	"title":"Mitz",
+	"category":"Legends",
+	"price":13.45,
+	"img":"img/Legends/mitz.png"
+}
+]

@@ -1,0 +1,65 @@
+body{
+	/*background: rgb(26,26,26);*/
+	font-family: Sofia;
+	margin: 0;
+	padding: 0;
+	/*background-image: url(img/procaliber97.png);
+	color: rgb(225,225,225);*/
+}
+
+p{
+	color: white;
+	/*font-size: 20px;*/
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+span{
+	color: white;
+	/*font-size: 20px;*/
+}
+
+input{
+	font-size: 20px;
+	margin: 5px;
+}
+
+select{
+	font-size: 20px;
+}
+
+#header{
+	background-color: blue;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+.items{
+	width: 30%;
+	padding: 1.5%; 
+	text-align: center;
+	display: inline-block;
+	 opacity: 1;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+	
+}
+
+.items:hover{
+	-webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.2,1.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
