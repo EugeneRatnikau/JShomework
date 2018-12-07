@@ -1,0 +1,22 @@
+[{
+	"name":"Do",
+	"sound":"audio/C3.mp3"
+},{
+	"name":"Re",
+	"sound":"audio/D3.mp3"
+},{
+	"name":"Mi",
+	"sound":"audio/E3.mp3"
+},{
+	"name":"Fa",
+	"sound":"audio/F3.mp3"
+},{
+	"name":"So",
+	"sound":"audio/G3.mp3"
+},{
+	"name":"Lia",
+	"sound":"audio/A3.mp3"
+},{
+	"name":"Si",
+	"sound":"audio/B3.mp3"
+}]

@@ -1,0 +1,1 @@
+[{"name":"Do","delay":22,"sound":"audio/C3.mp3","left":"22.09375px","top":"11.734375px"},{"name":"Re","delay":331,"sound":"audio/D3.mp3","left":"331.09375px","top":"73.734375px"},{"name":"Mi","delay":635,"sound":"audio/E3.mp3","left":"635.09375px","top":"131.734375px"}]

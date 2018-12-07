@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+</head>
+
+<body>
+  <header><div id="mozart"><img id="icon" src="img/violin.png">BeAMozart.com</div></header>
+  
+  <div class="main"><span>Timeline:</span> 
+    <div class="container">
+      <div class="notes droppable" id="timeline"></div>
+    </div>
+    <input type="button" value="Play" id="play">
+    <input type="button" value="Clear" id="clear">
+    <div id="notes" style="height:64px" >Notes:</div>
+    <textarea id="composition"></textarea><br>
+    <input type="button" value="Save" id="save">
+    <input type="button" value="Load" id="load">
+    <div class="file-upload">
+      <label>
+          <input type="file" id="file">
+          <span>Browse..</span>
+     </label>
+    </div>
+    
+    <!-- <input type="file" value="Browse.." id="file"> -->
+  </div>
+ <script src="DragManager.js"></script>
+ <script src="script.js"></script>
+</body>
+
+</html>
