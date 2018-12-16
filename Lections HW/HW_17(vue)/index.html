@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+</head>
+<body>
+	<div id="app" class="app"
+		@keydown.ESCAPE="resetStateManager">
+		<div class="controls">
+			<div class="new-list-inputs">
+				<input v-show="stateManager.isAddingList" type="text" class="input" placeholder="List title..." 
+					v-model="text"
+					@keydown.ENTER="addList">
+				<div>
+					<input v-show="stateManager.isAddingList" @click="addList" type="button" class="input confirmBtn" placeholder="List title..." value="Add new list">
+					<input v-show="stateManager.isAddingList" @click="resetStateManager" type="button" class="input cancelBtn" placeholder="List title..." value="Cancel">
+				</div>
+			</div>
+			<input type="button" @click="addList" class="add-list-btn" value="Add new list" title="Add new list...">	
+		</div>
+		<todolist v-for="(list, index) in lists"
+			:title="list.title"
+			:listid="index"
+			:items="list.items"
+			:appstate="stateManager"
+			@rename-title="renameList"
+			@remove-list="removeList"
+			@cancel="resetStateManager"
+			@add-item="addItem"
+			@edit-item="editItem"
+			@remove-item="removeItem"
+			class="todolist"></todolist>
+
+			
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
